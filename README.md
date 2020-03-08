@@ -1,6 +1,5 @@
-# todo-nuxt-app
+# SD Method Experiment App for Acoustics 
 
-> My ace Nuxt.js project
 
 ## Build Setup
 
