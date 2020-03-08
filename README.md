@@ -1,6 +1,6 @@
 # SD Method Experiment App for Acoustics 
 
-誠意製作中
+製作中
 
 ## Build Setup
 
