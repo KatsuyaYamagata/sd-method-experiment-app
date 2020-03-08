@@ -1,0 +1,21 @@
+{
+  "name": "todo-nuxt-app",
+  "version": "1.0.0",
+  "description": "My ace Nuxt.js project",
+  "author": "Katsuya Yamagata",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/bulma": "^1.2.1",
+    "dexie": "^2.0.4",
+    "nuxt": "^2.0.0",
+    "vue-idb": "^0.2.0",
+    "vuex-persistedstate": "^2.7.1"
+  },
+  "devDependencies": {}
+}
