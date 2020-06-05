@@ -1,14 +1,38 @@
 <template>
-  <div class="container">
-    <div>
-      <h1 class="title">SD Method Experiment for Acoustics</h1>
-      <upload />
-      <setAdjectives />
-      <div class="links">
-        <nuxt-link to="/Experiment" class="button--green">Experiment Page</nuxt-link>
-      </div>
-    </div>
-  </div>
+  <v-app>
+    <v-content>
+      <v-container>
+        <v-layout row wrap>
+          <v-row justify="center" align-content="center">
+            <v-col cols="12">
+              <v-row justify="center" align-content="center">
+                <v-col>
+                  <div class="title">SD Method Experiment for Acoustics</div>
+                </v-col>
+              </v-row>
+            </v-col>
+            <v-col cols="12">
+              <v-row justify="center" align-content="center">
+                <v-col cols="4">
+                  <upload />
+                </v-col>
+                <v-col cols="4">
+                  <setAdjectives />
+                </v-col>
+                <v-col cols="4">
+                  <div class="links">
+                    <nuxt-link to="/Experiment" class="button--green"
+                      >Experiment Page</nuxt-link
+                    >
+                  </div>
+                </v-col>
+              </v-row>
+            </v-col>
+          </v-row>
+        </v-layout>
+      </v-container>
+    </v-content>
+  </v-app>
 </template>
 
 <script>
@@ -47,12 +71,12 @@ export default {
     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   display: block;
   font-weight: 300;
-  font-size: 50px;
+  font-size: 1.25rem;
   color: #35495e;
   letter-spacing: 1px;
   top: 10%;
   margin-top: 3em;
-  margin-bottom: 1.5em;
+  margin-bottom: 1em;
 }
 
 .subtitle {

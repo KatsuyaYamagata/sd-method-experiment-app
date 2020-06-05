@@ -13,12 +13,12 @@ export const mutations = {
       adjectives: "++id,adjective1,adjective2"
     });
     state.dbAdj.adjectives
-      .put({ name: data.name, audioData: data.audioData })
+      .put({ adjective1: data.adjective1, adjective2: data.adjective2 })
       .then(function() {
-        return state.dbAdj.adjectives.get(data.name);
+        return state.dbAdj.adjectives.get(data.id);
       })
       .then(function(adjective) {
-        console.log(adjective.audioData);
+        console.log(adjective);
       })
       .catch(function(error) {
         console.log("Ooops: " + error);

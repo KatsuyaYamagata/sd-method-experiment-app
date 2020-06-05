@@ -18,7 +18,7 @@ export const mutations = {
         return state.db.sounds.get(data.name);
       })
       .then(function(sound) {
-        console.log(sound.audioData);
+        console.log(sound);
       })
       .catch(function(error) {
         console.log("Ooops: " + error);

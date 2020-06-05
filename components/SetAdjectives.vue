@@ -41,7 +41,7 @@ export default {
   },
   methods: {
     insert() {
-      this.$store.commit("adjective/insert", this.list);
+      this.$store.commit("dexieAdjective/createDB", this.list);
       this.list.adjective1 = "";
       this.list.adjective2 = "";
     },
